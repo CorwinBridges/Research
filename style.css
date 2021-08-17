@@ -1,0 +1,17 @@
+.header {
+    padding: 150px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .content {
+      padding: 20px;
+      font-size: 20px;
+  }
+  .jumbotron {
+      background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+  }
