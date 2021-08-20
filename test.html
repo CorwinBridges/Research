@@ -20,6 +20,12 @@
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        /* affix the navbar after scroll below header */
+        $(".nav").affix({ offset: { top: $("header").outerHeight(true) } });
+      });
+    </script>
     <link rel="stylesheet" type="text/css" href="style2.css" />
     <title>Research</title>
   </head>
@@ -96,8 +102,9 @@
         </p>
       </header>
 
-      <!-- Sidebar -->
+      <!-- Row Content -->
       <div class="row content">
+        <!-- Sidebar -->
         <nav class="col-xs-3 sidenav" id="myScrollspy">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="#p1">Page 1</a></li>
@@ -174,86 +181,77 @@
               <h1>P2</h1>
             </div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
           </div>
           <!-- Header 3 -->
           <div id="p3">
@@ -261,93 +259,80 @@
               <h1>P3</h1>
             </div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      $(document).ready(function () {
-        /* affix the navbar after scroll below header */
-        $(".nav").affix({ offset: { top: $("header").outerHeight(true) } });
-      });
-    </script>
   </body>
 </html>

@@ -20,6 +20,12 @@
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        /* affix the navbar after scroll below header */
+        $(".nav").affix({ offset: { top: $("header").outerHeight(true) } });
+      });
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Research</title>
   </head>
@@ -27,13 +33,20 @@
     <div class="container-fluid">
       <!-- Heading -->
       <header>
-        <div class="jumbotron" style="background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);">
+        <div
+          class="jumbotron"
+          style="
+            background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+          "
+        >
           <h1><b>Key Milestones Project</b></h1>
           <p><b>By Corwin Bridges</b></p>
+        <!-- /Jumbotron -->
         </div>
       </header>
-      <!-- Side Navbar-->
+      <!-- Row Content -->
       <div class="row content">
+        <!-- Sidebar -->
         <nav class="col-xs-3 sidenav" id="myScrollspy">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="test.html">test</a></li>
@@ -58,92 +71,93 @@
               <li>Lorem ipsum dolor sit amet</li>
               <li>Lorem ipsum dolor sit amet</li>
             </ul>
+          <!-- /Header 1 -->
           </div>
           <!-- Header 2 -->
           <div id="p2">
-              <div class="page-header">
-                <h1><b>Milestone 1</b></h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-                ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices sapien
-                nec egestas tempor. Sed vel semper purus, et ultricies lorem. Nam
-                finibus lorem at sodales cursus. Maecenas a nunc tempor urna luctus
-                eleifend. Fusce dui sem, dignissim et tellus et, mattis gravida
-                turpis. Nam consequat vestibulum sapien. Cras sit amet rhoncus erat.
-                Fusce a ultricies magna. Sed eu aliquet eros.
-              </p>
+            <div class="page-header">
+              <h1><b>Milestone 1</b></h1>
             </div>
-            <!-- Header 3 -->
-            <div id="p3">
-              <div class="page-header">
-                <h1><b>Milestone 2</b></h1>
-              </div>
-              <div class="page-header">
-                <h1><b>Milestone 2</b></h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-                ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices sapien
-                nec egestas tempor. Sed vel semper purus, et ultricies lorem. Nam
-                finibus lorem at sodales cursus. Maecenas a nunc tempor urna luctus
-                eleifend. Fusce dui sem, dignissim et tellus et, mattis gravida
-                turpis. Nam consequat vestibulum sapien. Cras sit amet rhoncus erat.
-                Fusce a ultricies magna. Sed eu aliquet eros.
-              </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+          <!-- /Header 2 -->
+          </div>
+          <!-- Header 3 -->
+          <div id="p3">
+            <div class="page-header">
+              <h1><b>Milestone 2</b></h1>
             </div>
-            <!-- Header 4 -->
-            <div id="p4">
-              <div class="page-header">
-                <h1><b>Milestone 3</b></h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-                ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices sapien
-                nec egestas tempor. Sed vel semper purus, et ultricies lorem. Nam
-                finibus lorem at sodales cursus. Maecenas a nunc tempor urna luctus
-                eleifend. Fusce dui sem, dignissim et tellus et, mattis gravida
-                turpis. Nam consequat vestibulum sapien. Cras sit amet rhoncus erat.
-                Fusce a ultricies magna. Sed eu aliquet eros.
-              </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+          <!-- /Header 3 -->
+          </div>
+          <!-- Header 4 -->
+          <div id="p4">
+            <div class="page-header">
+              <h1><b>Milestone 3</b></h1>
             </div>
-            <!-- Header 5 -->
-            <div id="p5">
-              <div class="page-header">
-                <h1><b>Milestone 4</b></h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-                ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices sapien
-                nec egestas tempor. Sed vel semper purus, et ultricies lorem. Nam
-                finibus lorem at sodales cursus. Maecenas a nunc tempor urna luctus
-                eleifend. Fusce dui sem, dignissim et tellus et, mattis gravida
-                turpis. Nam consequat vestibulum sapien. Cras sit amet rhoncus erat.
-                Fusce a ultricies magna. Sed eu aliquet eros.
-              </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+          <!-- /Header 4 -->
+          </div>
+          <!-- Header 5 -->
+          <div id="p5">
+            <div class="page-header">
+              <h1><b>Milestone 4</b></h1>
             </div>
-            <!-- Header 6 -->
-            <div id="p6">
-              <div class="page-header">
-                <h1><b>Milestone 5</b></h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-                ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices sapien
-                nec egestas tempor. Sed vel semper purus, et ultricies lorem. Nam
-                finibus lorem at sodales cursus. Maecenas a nunc tempor urna luctus
-                eleifend. Fusce dui sem, dignissim et tellus et, mattis gravida
-                turpis. Nam consequat vestibulum sapien. Cras sit amet rhoncus erat.
-                Fusce a ultricies magna. Sed eu aliquet eros.
-              </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+          <!-- /Header 5 -->
+          </div>
+          <!-- Header 6 -->
+          <div id="p6">
+            <div class="page-header">
+              <h1><b>Milestone 5</b></h1>
             </div>
-        </div>  
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              ultricies dui. Duis dictum eu felis et volutpat. Morbi ultrices
+              sapien nec egestas tempor. Sed vel semper purus, et ultricies
+              lorem. Nam finibus lorem at sodales cursus. Maecenas a nunc tempor
+              urna luctus eleifend. Fusce dui sem, dignissim et tellus et,
+              mattis gravida turpis. Nam consequat vestibulum sapien. Cras sit
+              amet rhoncus erat. Fusce a ultricies magna. Sed eu aliquet eros.
+            </p>
+          <!-- /Header 6 -->
+          </div>
+        <!-- /Main -->
+        </div>
+      <!-- /Row Content -->
+      </div>
+    <!-- /Container-fluid -->
     </div>
-    <script>
-      $(document).ready(function () {
-        /* affix the navbar after scroll below header */
-        $(".nav").affix({ offset: { top: $("header").outerHeight(true) } });
-      });
-    </script>
   </body>
 </html>
