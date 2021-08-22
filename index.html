@@ -37,6 +37,9 @@
           },
         });
       });
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Research</title>
@@ -59,7 +62,7 @@
       <!-- /Heading -->
     </header>
     <!-- Container-fluid -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-color">
       <!-- Row Content -->
       <div class="row content">
         <!-- Sidebar-bg -->
@@ -122,69 +125,75 @@
                 <b><i>ENIAC</i> (1946)</b>
               </h1>
             </div>
-            <div class="indent">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <a
-                href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Source!"
-              >
-                <img
-                  src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
-                  alt="#"
-                />
-                ok
-              </a>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
+            <div class="odd">
+              <figure class="figure">
+                <a
+                  href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Source!"
+                >
+                  <img
+                    src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
+                    class="figure-img img-fluid rounded"
+                    alt="#"
+                  />
+                </a>
+                <figcaption class="figure-caption">Caption</figcaption>
+              </figure>
+
+              <div class="indent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+              </div>
             </div>
 
             <!-- /Milestone 1 -->
@@ -196,65 +205,74 @@
                 <b><i>IBM Personal Computer</i> (1981)</b>
               </h1>
             </div>
-            <div class="indent">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <a
-                href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
-              >
-                <img
-                  src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
-                  alt="#"
-                />
-              </a>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
+            <div class="even">
+              <figure class="figure">
+                <a
+                  href="https://en.wikipedia.org/wiki/IBM_Personal_Computer_XT"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Source!"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ibm_px_xt_color.jpg"
+                    class="figure-img img-fluid rounded"
+                    alt="#"
+                  />
+                </a>
+                <figcaption class="figure-caption">Caption</figcaption>
+              </figure>
+              <div class="indent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+              </div>
             </div>
             <!-- /Milestone 2 -->
           </div>
@@ -265,65 +283,74 @@
                 <b>Apple's <i>Macintosh</i> (1984)</b>
               </h1>
             </div>
-            <div class="indent">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <a
-                href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
-              >
-                <img
-                  src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
-                  alt="#"
-                />
-              </a>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
+            <div class="odd">
+              <figure class="figure">
+                <a
+                  href="https://www.dallasnews.com/news/2018/01/24/flashback-apple-computer-s-macintosh-took-on-ibm-armed-with-a-mouse/"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Source!"
+                >
+                  <img
+                    src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/R0sBb40IU1R_fqaEdUKhWJDkNWE=/1660x934/filters:focal(-4.254x5.441:5.746x-4.559):no_upscale()/arc-anglerfish-arc2-prod-dmn.s3.amazonaws.com/public/MZ5HKFJIXBWWGMQRM55677NVRY.jpg"
+                    class="figure-img img-fluid rounded"
+                    alt="#"
+                  />
+                </a>
+                <figcaption class="figure-caption">Caption</figcaption>
+              </figure>
+              <div class="indent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+              </div>
             </div>
             <!-- /Milestone 3 -->
           </div>
@@ -334,65 +361,74 @@
                 <b>The Launch of <i>Windows</i> (1985)</b>
               </h1>
             </div>
-            <div class="indent">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <a
-                href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
-              >
-                <img
-                  src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
-                  alt="#"
-                />
-              </a>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
+            <div class="even">
+              <figure class="figure">
+                <a
+                  href="https://jameshgcc.wordpress.com/history-of-windows-part-1-windows-1-01/"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Source!"
+                >
+                  <img
+                    src="https://jameshgcc.files.wordpress.com/2015/02/windows-1-01.jpg"
+                    class="figure-img img-fluid rounded"
+                    alt="#"
+                  />
+                </a>
+                <figcaption class="figure-caption">Caption</figcaption>
+              </figure>
+              <div class="indent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+              </div>
             </div>
             <!-- /Milestone 4 -->
           </div>
@@ -403,65 +439,74 @@
                 <b><i>World Wide Web</i> (1989)</b>
               </h1>
             </div>
-            <div class="indent">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <a
-                href="https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
-              >
-                <img
-                  src="https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=600"
-                  alt="#"
-                />
-              </a>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                in ultricies dui. Duis dictum eu felis et volutpat. Morbi
-                ultrices sapien nec egestas tempor. Sed vel semper purus, et
-                ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas a
-                nunc tempor urna luctus eleifend. Fusce dui sem, dignissim et
-                tellus et, mattis gravida turpis. Nam consequat vestibulum
-                sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna. Sed
-                eu aliquet eros.
-              </p>
+            <div class="odd">
+              <figure class="figure">
+                <a
+                  href="https://www.ebuyer.com/blog/2019/03/world-wide-web-trivia/"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Source!"
+                >
+                  <img
+                    src="https://www.ebuyer.com/blog/wp-content/uploads/2019/03/world-wide-web-trivia.jpg"
+                    class="figure-img img-fluid rounded"
+                    alt="#"
+                  />
+                </a>
+                <figcaption class="figure-caption">Caption</figcaption>
+              </figure>
+              <div class="indent">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  in ultricies dui. Duis dictum eu felis et volutpat. Morbi
+                  ultrices sapien nec egestas tempor. Sed vel semper purus, et
+                  ultricies lorem. Nam finibus lorem at sodales cursus. Maecenas
+                  a nunc tempor urna luctus eleifend. Fusce dui sem, dignissim
+                  et tellus et, mattis gravida turpis. Nam consequat vestibulum
+                  sapien. Cras sit amet rhoncus erat. Fusce a ultricies magna.
+                  Sed eu aliquet eros.
+                </p>
+              </div>
             </div>
             <!-- /Milestone 5 -->
           </div>
