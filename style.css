@@ -1,6 +1,12 @@
 .sidebar {
   background-color: #d87e7e;
   height: 1000px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidebar a {
+  font-size: 25px;
+  color: white;
 }
 .affix {
   top: 0px;
@@ -11,10 +17,32 @@ footer {
   color: white;
   padding: 15px;
   z-index: 999;
-  position:relative;
+  position: relative;
 }
 header {
   background-color: #965faf;
   color: white;
   padding: 15px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #f3d423 !important;
+  background-color: #b13070;
+}
+.nav-pills > li > a:hover {
+  background-color: blue;
+}
+.spacing {
+  line-height: 1.7;
+}
+p {
+  font-size: 18px;
+}
+img {
+  float: left;
+  padding: 15px;
+}
+.indent {
+  text-indent: 48px;
 }
