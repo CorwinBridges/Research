@@ -38,6 +38,7 @@ header {
 }
 p {
   font-size: 18px;
+  overflow-x: hidden;
 }
 img {
   float: left;
@@ -77,7 +78,6 @@ table.table-bordered,
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 .row.content {
   padding-bottom: 150px;
