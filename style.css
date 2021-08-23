@@ -64,7 +64,8 @@ figcaption {
   background-color: #ad3180;
   padding: 15px;
   margin: 15px;
-  max-width: 470px;
+  width: 470px;
+  height: auto;
   border-radius: 30px;
   color: #ff92e0;
 }
@@ -94,6 +95,9 @@ body {
   img {
     width: 100%;
   }
+  figcaption {
+    width: 100%;
+  }
   h1 {
     font-size: 32px;
   }
@@ -114,7 +118,10 @@ body {
   h2 {
     font-size: 24px;
   }
+  figcaption {
+    width: 305px;
+  }
   img {
-    width: 250px;
+    width: 335px;
   }
 }
