@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #d87e7e;
+  background-color: #611B47;
   height: 3000px;
   overflow-x: hidden;
   padding-top: 20px;
@@ -13,32 +13,34 @@
   position: sticky;
 }
 footer {
-  background-color: #965faf;
+  background-color: #E03FA5;
   color: white;
   padding: 15px;
   z-index: 999;
   position: relative;
 }
 header {
-  background-color: #965faf;
+  background-color: #E03FA5;
   color: white;
   padding: 15px;
+}
+.jumbotron {
+  background-color: #AD3180;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
-  color: #f3d423 !important;
-  background-color: #b13070;
+  color: #FF92E0 !important;
+  background-color: #AD3180;
 }
 .nav-pills > li > a:hover {
-  background-color: blue;
+  background-color: #AD3180;
 }
 .spacing {
   line-height: 1.7;
 }
 p {
   font-size: 18px;
-  
 }
 img {
   float: left;
@@ -49,7 +51,7 @@ img {
 }
 
 .bg-color {
-  background-color: #91cecc;
+  background-color: #E685C2;
 }
 .indent {
   text-indent: 48px;
@@ -59,13 +61,15 @@ figure {
   float: left;
 }
 figcaption {
-  background-color: chartreuse;
+  background-color: #AD3180;
   padding: 15px;
   margin: 15px;
+  max-width: 470px;
   border-radius: 30px;
+  color: #FF92E0;
 }
 table {
-  background-color: darkgoldenrod;
+  background-color: #E03FA5;
 }
 table.table-bordered,
 .table-bordered > tbody > tr > td,
@@ -74,13 +78,14 @@ table.table-bordered,
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th {
-  border: 2px solid rgb(34, 88, 124);
+  border: 2px solid #AD3180;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .row.content {
   padding-bottom: 150px;
+  color:#613852;
 }
 @media only screen and (max-width: 768px) {
   .sidebar a {
@@ -110,3 +115,4 @@ body {
     font-size: 24px;
   }
 }
+
