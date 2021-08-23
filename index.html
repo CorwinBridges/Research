@@ -19,6 +19,7 @@
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"
     ></script>
+    <!-- jQuery Scripts-->
     <script>
       $(document).ready(function () {
         /* affix the navbar after scroll below header */
@@ -41,21 +42,26 @@
       });
     </script>
     <title>Research</title>
+    <!-- CSS -->
     <style>
+      /* Sidebar */
       .sidebar {
         background-color: #611b47;
         height: 3000px;
         overflow-x: hidden;
         padding-top: 20px;
       }
+      /* Sidebar links */
       .sidebar a {
         font-size: 25px;
         color: white;
       }
+      /* Sidebar affix */
       .affix {
         top: 0px;
         position: sticky;
       }
+      /* Footer */
       footer {
         background-color: #e03fa5;
         color: white;
@@ -63,30 +69,39 @@
         z-index: 999;
         position: relative;
       }
+      /* Header */
       header {
         background-color: #e03fa5;
         color: white;
         padding: 15px;
       }
+      /* Jumbotron */
       .jumbotron {
         background-color: #ad3180;
       }
+      /* Sidebar nav pills active color */
       .nav-pills > li.active > a,
       .nav-pills > li.active > a:focus,
       .nav-pills > li.active > a:hover {
         color: #ff92e0 !important;
         background-color: #ad3180;
+        transition: 0.3s;
       }
+      /* Sidebar nav pills hover color */
       .nav-pills > li > a:hover {
         background-color: #ad3180;
         color: #ff92e0;
+        transition: 0.4s;
       }
+      /* Line spacing */
       .spacing {
         line-height: 1.7;
       }
+      /* Paragraph font size */
       p {
         font-size: 18px;
       }
+      /* Image */
       img {
         float: left;
         padding: 15px;
@@ -94,17 +109,20 @@
         height: auto;
         border-radius: 30px 30px 0px 0px;
       }
-
+      /* Content background color */
       .bg-color {
         background-color: #e685c2;
       }
+      /* Indent */
       .indent {
         text-indent: 48px;
       }
+      /* Tootltips */
       [data-toggle="tooltip"],
       figure {
         float: left;
       }
+      /* Captions */
       figcaption {
         background-color: #ad3180;
         padding: 15px;
@@ -114,9 +132,11 @@
         border-radius: 30px;
         color: #ff92e0;
       }
+      /* Table background color */
       table {
         background-color: #e03fa5;
       }
+      /* Table border color */
       table.table-bordered,
       .table-bordered > tbody > tr > td,
       .table-bordered > tbody > tr > th,
@@ -126,16 +146,21 @@
       .table-bordered > thead > tr > th {
         border: 2px solid #ad3180;
       }
+      /* Page font */
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
+      /* Content word color */
       .row.content {
         padding-bottom: 150px;
         color: #613852;
       }
-      a {
-        color:white;
+      /* Hyperlink color */
+      a,
+      a:hover {
+        color: white;
       }
+      /* Formatting for 768px */
       @media only screen and (max-width: 768px) {
         .sidebar a {
           font-size: 20px;
@@ -143,7 +168,7 @@
         img {
           width: 400px;
         }
-      
+
         figcaption {
           width: 370px;
         }
@@ -154,6 +179,7 @@
           font-size: 28px;
         }
       }
+      /* Formatting for 576px */
       @media only screen and (max-width: 576px) {
         .sidebar a {
           font-size: 14px;
@@ -196,6 +222,7 @@
         <div class="sidebar-bg">
           <!-- Sidebar -->
           <nav class="col-xs-3 sidebar" id="myScrollspy">
+            <!-- Sidebar links -->
             <ul class="nav nav-pills nav-stacked">
               <li class="nav-item">
                 <a class="nav-link" href="#m0">Milestones</a>
@@ -221,8 +248,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#m5"><i>World Wide Web</i> (1989)</a>
               </li>
+              <!-- /Sidebar links -->
             </ul>
+            <!-- /Sidebar -->
           </nav>
+          <!-- Sidebar-bg -->
         </div>
         <!-- Main -->
         <div class="col-xs-9 spacing">
@@ -240,6 +270,7 @@
                 <li><i>World Wide Web</i> (1989)</li>
               </ul>
             </h2>
+            <!-- Table -->
             <div class="table-responsive">
               <table class="table table-bordered">
                 <thead>
@@ -263,10 +294,11 @@
                   </tr>
                 </tbody>
               </table>
+              <!-- /Table -->
             </div>
             <!-- /Milestones -->
           </div>
-          <!-- Milestone 1 -->
+          <!-- ENIAC -->
           <div id="m1">
             <div class="page-header">
               <h1>
@@ -274,6 +306,7 @@
               </h1>
             </div>
             <div class="odd">
+              <!-- ENIAC Caption -->
               <figure class="figure">
                 <a
                   href="https://www.britannica.com/technology/ENIAC"
@@ -296,8 +329,9 @@
                     revolution/birth-of-the-computer/4/78</a
                   >
                 </figcaption>
+                <!-- /ENIAC Caption -->
               </figure>
-
+              <!-- ENIAC Content -->
               <div class="indent">
                 <p>
                   The Electronic Numerical Integrator and Computer, or just
@@ -339,11 +373,11 @@
                   predecessors.
                 </p>
               </div>
+              <!-- /ENIAC Content -->
             </div>
-
-            <!-- /Milestone 1 -->
+            <!-- /ENIAC -->
           </div>
-          <!-- Milestone 2 -->
+          <!-- IBM Personal Computer -->
           <div id="m2">
             <div class="page-header">
               <h1>
@@ -351,6 +385,7 @@
               </h1>
             </div>
             <div class="even">
+              <!-- IBM Personal Computer Caption -->
               <figure class="figure">
                 <a
                   href="https://www.ibm.com/ibm/history/exhibits/pc25/pc25_birth.html"
@@ -373,7 +408,9 @@
                     >https://en.wikipedia.org/ wiki/IBM_Personal_Computer_XT</a
                   >
                 </figcaption>
+                <!-- /IBM Personal Computer Caption-->
               </figure>
+              <!-- IBM Personal Computer Content-->
               <div class="indent">
                 <p>
                   The IBM 5150, or the <i>IBM Personal Computer</i>, was
@@ -412,10 +449,11 @@
                   computer should be.
                 </p>
               </div>
+              <!-- /IBM Personal Computer Content -->
             </div>
-            <!-- /Milestone 2 -->
+            <!-- /IBM Personal Computer -->
           </div>
-          <!-- Milestone 3 -->
+          <!-- Macintosh -->
           <div id="m3">
             <div class="page-header">
               <h1>
@@ -423,6 +461,7 @@
               </h1>
             </div>
             <div class="odd">
+              <!-- Macintosh Caption -->
               <figure class="figure">
                 <a
                   href="https://americanhistory.si.edu/collections/search/object/nmah_334371"
@@ -444,7 +483,9 @@
                     revolution/personal-computers/17/303/1203</a
                   >
                 </figcaption>
+                <!-- /Macintosh Caption -->
               </figure>
+              <!-- Macintosh Content -->
               <div class="indent">
                 <p>
                   Apple introduced the <i>Macintosh</i> on January 24, 1984. The
@@ -485,10 +526,11 @@
                   experience.
                 </p>
               </div>
+              <!-- /Macintosh Content -->
             </div>
-            <!-- /Milestone 3 -->
+            <!-- /Macintosh -->
           </div>
-          <!-- Milestone 4 -->
+          <!-- Windows -->
           <div id="m4">
             <div class="page-header">
               <h1>
@@ -496,6 +538,7 @@
               </h1>
             </div>
             <div class="even">
+              <!-- Windows Caption -->
               <figure class="figure">
                 <a
                   href="https://history-computer.com/software/microsoft-windows-complete-history-of-microsoft-windows/"
@@ -517,7 +560,9 @@
                     >https://en.wikipedia.org/ wiki/Windows_1.0x</a
                   >
                 </figcaption>
+                <!-- /Windows Caption -->
               </figure>
+              <!-- Windows Content -->
               <div class="indent">
                 <p>
                   <i>Windows</i> was announced on November 10, 1983, by at the
@@ -554,10 +599,11 @@
                   is one of the most successful companies in the world.
                 </p>
               </div>
+              <!-- Windows Content -->
             </div>
-            <!-- /Milestone 4 -->
+            <!-- /Windows -->
           </div>
-          <!-- Milestone 5 -->
+          <!-- WWW -->
           <div id="m5">
             <div class="page-header">
               <h1>
@@ -565,6 +611,7 @@
               </h1>
             </div>
             <div class="odd">
+              <!-- WWW Caption -->
               <figure class="figure">
                 <a
                   href="https://home.cern/science/computing/birth-web/short-history-web"
@@ -588,7 +635,9 @@
                     resources/image/computing/world-wide-web-images-gallery</a
                   >
                 </figcaption>
+                <!-- /WWW Caption -->
               </figure>
+              <!-- WWW Content -->
               <div class="indent">
                 <p>
                   The <i>World Wide Web</i> was created by Tim Berners-Lee in
@@ -628,8 +677,9 @@
                   today.
                 </p>
               </div>
+              <!-- /WWW Content-->
             </div>
-            <!-- /Milestone 5 -->
+            <!-- /WWW -->
           </div>
           <!-- /Main -->
         </div>
