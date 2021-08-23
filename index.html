@@ -40,8 +40,136 @@
         $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Research</title>
+    <style>
+      .sidebar {
+        background-color: #611b47;
+        height: 3000px;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      .sidebar a {
+        font-size: 25px;
+        color: white;
+      }
+      .affix {
+        top: 0px;
+        position: sticky;
+      }
+      footer {
+        background-color: #e03fa5;
+        color: white;
+        padding: 15px;
+        z-index: 999;
+        position: relative;
+      }
+      header {
+        background-color: #e03fa5;
+        color: white;
+        padding: 15px;
+      }
+      .jumbotron {
+        background-color: #ad3180;
+      }
+      .nav-pills > li.active > a,
+      .nav-pills > li.active > a:focus,
+      .nav-pills > li.active > a:hover {
+        color: #ff92e0 !important;
+        background-color: #ad3180;
+      }
+      .nav-pills > li > a:hover {
+        background-color: #ad3180;
+      }
+      .spacing {
+        line-height: 1.7;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+        float: left;
+        padding: 15px;
+        width: 500px;
+        height: auto;
+        border-radius: 30px 30px 0px 0px;
+      }
+
+      .bg-color {
+        background-color: #e685c2;
+      }
+      .indent {
+        text-indent: 48px;
+      }
+      [data-toggle="tooltip"],
+      figure {
+        float: left;
+      }
+      figcaption {
+        background-color: #ad3180;
+        padding: 15px;
+        margin: 15px;
+        width: 470px;
+        height: auto;
+        border-radius: 30px;
+        color: #ff92e0;
+      }
+      table {
+        background-color: #e03fa5;
+      }
+      table.table-bordered,
+      .table-bordered > tbody > tr > td,
+      .table-bordered > tbody > tr > th,
+      .table-bordered > tfoot > tr > td,
+      .table-bordered > tfoot > tr > th,
+      .table-bordered > thead > tr > td,
+      .table-bordered > thead > tr > th {
+        border: 2px solid #ad3180;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .row.content {
+        padding-bottom: 150px;
+        color: #613852;
+      }
+      @media only screen and (max-width: 768px) {
+        .sidebar a {
+          font-size: 20px;
+        }
+        img {
+          width: 100%;
+        }
+        figcaption {
+          width: 100%;
+        }
+        h1 {
+          font-size: 32px;
+        }
+        h2 {
+          font-size: 28px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        .sidebar a {
+          font-size: 14px;
+        }
+        p {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        figcaption {
+          width: 305px;
+        }
+        img {
+          width: 335px;
+        }
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target="#myScrollspy" data-offset-top="15">
     <!-- Heading -->
