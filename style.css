@@ -125,3 +125,6 @@ body {
     width: 335px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
